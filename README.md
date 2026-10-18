@@ -71,6 +71,15 @@ unsupported endpoints are not silently rerouted to another provider.
 Obtain an API Token from [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=lightport_readme_api_key):
 register/sign in, initialize General application if necessary, copy a key or
 create a dedicated key, and check its API access, expiration, usage cap and balance.
+The redacted screenshots below show the real Ace Applications key-copy and
+credential-creation controls. They come from the [SunoDify onboarding guide](https://github.com/AceDataCloud/SunoDify/blob/8d3d03570e73324220f111f7fe343da0792a8071/README.md),
+checked 2026-10-18. The example key name is from that source; choose a dedicated
+Lightport name. These are Ace account screens, not a Glama model-menu screenshot.
+
+![Copy a redacted Ace application API key](https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/get-api-key-en.png)
+
+![Create an optional dedicated Ace API credential](https://raw.githubusercontent.com/AceDataCloud/SunoDify/8d3d03570e73324220f111f7fe343da0792a8071/_assets/tutorial/create-api-key-en.png)
+
 Use the generation API Token, not a platform-management token. API calls may be
 billed at the [current model price](https://platform.acedata.cloud/models?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=lightport_readme_pricing).
 
